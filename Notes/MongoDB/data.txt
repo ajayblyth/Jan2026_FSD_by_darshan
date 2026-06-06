@@ -1,0 +1,50 @@
+db.employees.insertMany([
+  { name: 'Priya Patel',    age: 32, city: 'Bangalore', role: 'Manager',   salary: 95000, department: 'Tech'      },
+  { name: 'Rahul Kumar',    age: 25, city: 'Delhi',     role: 'Designer',  salary: 45000, department: 'Design'    },
+  { name: 'Sneha Reddy',    age: 29, city: 'Hyderabad', role: 'Developer', salary: 70000, department: 'Tech'      },
+  { name: 'Vikram Singh',   age: 35, city: 'Mumbai',    role: 'Manager',   salary: 105000, department: 'Sales'    },
+  { name: 'Ananya Iyer',    age: 27, city: 'Chennai',   role: 'Developer', salary: 60000, department: 'Tech'      },
+  { name: 'Karan Mehta',    age: 31, city: 'Pune',      role: 'Designer',  salary: 55000, department: 'Design'    },
+  { name: 'Divya Nair',     age: 26, city: 'Bangalore', role: 'Developer', salary: 68000, department: 'Tech'      },
+  { name: 'Arjun Verma',    age: 38, city: 'Delhi',     role: 'Manager',   salary: 120000, department: 'Finance'  },
+  { name: 'Pooja Joshi',    age: 24, city: 'Mumbai',    role: 'Intern',    salary: 25000, department: 'Tech'      },
+  { name: 'Rohan Gupta',    age: 30, city: 'Hyderabad', role: 'Developer', salary: 72000, department: 'Tech'      },
+  { name: 'Meera Kapoor',   age: 33, city: 'Bangalore', role: 'Designer',  salary: 62000, department: 'Design'    },
+  { name: 'Sanjay Pillai',  age: 40, city: 'Chennai',   role: 'Manager',   salary: 135000, department: 'Finance'  },
+  { name: 'Neha Bhatt',     age: 28, city: 'Pune',      role: 'Developer', salary: 67000, department: 'Tech'      },
+  { name: 'Tarun Saxena',   age: 26, city: 'Delhi',     role: 'Intern',    salary: 22000, department: 'Sales'     },
+  { name: 'Riya Malhotra',  age: 34, city: 'Mumbai',    role: 'Designer',  salary: 78000, department: 'Design'    }
+])
+
+
+use school
+ 
+db.students.insertMany([
+  { name:'Aarav',  city:'Delhi',     subject:'Math',    marks:85 },
+  { name:'Neha',   city:'Delhi',     subject:'Science', marks:67 },
+  { name:'Rohan',  city:'Delhi',     subject:'Math',    marks:90 },
+  { name:'Priya',  city:'Mumbai',    subject:'Science', marks:78 },
+  { name:'Karan',  city:'Mumbai',    subject:'Math',    marks:97 },
+  { name:'Sneha',  city:'Mumbai',    subject:'Science', marks:88 },
+  { name:'Vikram', city:'Bangalore', subject:'Math',    marks:69 },
+  { name:'Divya',  city:'Bangalore', subject:'Science', marks:93 },
+  { name:'Anita',  city:'Chennai',   subject:'English', marks:72 },
+  { name:'Rahul',  city:'Chennai',   subject:'Math',    marks:80 },
+  { name:'Meera',  city:'Pune',      subject:'Science', marks:91 },
+  { name:'Sanjay', city:'Pune',      subject:'Math',    marks:84 },
+  { name:'Pooja',  city:'Kolkata',   subject:'English', marks:76 },
+  { name:'Tarun',  city:'Kolkata',   subject:'Science', marks:95 },
+  { name:'Riya',   city:'Noida',     subject:'Math',    marks:89 }
+])
+
+
+db.courses.insertMany([
+  { studentName:'Aarav', course:'Web Development',  duration:'6 months',  fees:15000 },
+  { studentName:'Rohan', course:'Data Science',     duration:'8 months',  fees:25000 },
+  { studentName:'Karan', course:'Machine Learning', duration:'10 months', fees:30000 },
+  { studentName:'Divya', course:'Web Development',  duration:'6 months',  fees:15000 },
+  { studentName:'Meera', course:'Cloud Computing',  duration:'5 months',  fees:20000 },
+  { studentName:'Tarun', course:'Data Science',     duration:'8 months',  fees:25000 },
+  { studentName:'Riya',  course:'App Development',   duration:'7 months',  fees:18000 },
+  { studentName:'Priya', course:'Web Development',  duration:'6 months',  fees:15000 }
+])
